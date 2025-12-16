@@ -1,0 +1,221 @@
+.bgblue{
+    background-color: blue;
+}
+.bgred{
+    background-color: red;
+}
+.bgblack{
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------/*classes flex box*/
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+/*------------------------------------------------------/*classes de largeur*/
+.w200{
+    width: 200%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w48 {
+    width: 48%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w40 {
+    width: 40%;
+}
+
+.w33 {
+    width: 33%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+.p5{
+    padding: 5px;
+}
+
+.p50{
+    padding: 50px;
+}
+/*--------------------------------------------------------------/*génériques*/
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-end{
+    justify-content: end;
+}
+.txtcenter{
+    text-align: center;
+}
+.mgt200{
+    margin-top: 200px;
+}
+.mgt100{
+    margin-top: 100px;
+}
+body {
+    font-size: 14px;
+
+    font-family: "Jost", sans-serif
+}
+.suppuce {
+    list-style: none;
+}
+.ombre {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.card {
+    background-color: rgb(191, 188, 188);
+    border-radius: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+
+}
+.card2{
+    background-color: rgb(191, 188, 188);
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+}
+.card3{
+    background-color: rgb(134, 5, 208);
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+}
+.cWhite{
+    color: white;
+}
+.cBlack{
+    color: black;
+    font-weight: bolder;
+}
+
+
+.carteimg {
+    width: 33%;
+    height: 33%;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------------------/*header*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 5vH;
+    padding: 30px 20px 40px 20px;
+    
+}
+.alignCenter{
+    align-items: center;
+}
+
+/*------------------------------------------------------/*hero*/
+.container-1000 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.section-hero {
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130vH;
+    margin-top: 100px;
+    color: white;
+    
+
+}
+
+
+/*----------------------------------------------------/*section1*/
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.police {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.yellow{
+    color: rgba(243, 243, 4, 0.61);
+}
+
+.buttonBR {
+    background-color: #100d0e;
+    border-radius: 5px;
+    color: #db3b3b;
+    padding: 5px 15px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buttonred {
+    background-color: #db3b3b;
+    border-radius: 5px;
+    color: #f6f4f7;
+    padding: 5px 15px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*------------------------------------------------------/*section2*/
+
+/*------------------------------------------------------/*section3*/
+
+/*------------------------------------------------------/*footer*/
