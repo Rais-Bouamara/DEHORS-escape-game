@@ -16,81 +16,49 @@
 <body>
     <header class="flex space-between align-center space-around bgblack p50"><!--header avec liste de lien-->
         <div>
-            <img src="logo-escape-2.png" alt="" class="w33"><a href=""></a>
+            <img src="asset/logo-escape-2.png" alt="" class="w25"><a href=""></a>
         </div>
         <nav class="w-33">
             <ul class="flex space-between police suppuce">
                 <li><a href="" class="cWhite">TARIFS</a></li>
                 <li><a href="" class="cWhite">DEFI A VENIR</a></li>
                 <li><a href="" class="buttonred">RESERVER</a></li>
-                <li><a href="" class="buttonred">S'INSCRIRE</a></li>
+                <li><a href="" class="buttonBR">S'INSCRIRE</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="section-hero txtcenter"><!--section hero avec gros titre-->
-            <h1 class="buttonBR w60 mgt100">Découvrez l'aventure ultime avec Dehors!
+            <h1 class="buttonBlack w60 mgt100">Découvrez l'aventure ultime avec <span class="txtred">Dehors!</span>
                 votre destination d'escape game à Paris</h1>
-            <p class="mgt200">Dehors! - Escape Game Paris</p>
+            <p class="mgt200 plusgrand">Dehors! - Escape Game Paris</p>
         </section>
-        <section><!--section 2 presentation des 3 activitées-->
-            <h2>NOS LIEUX DANGEREUX</h2>
-            <div>
-                <div>
-                    <h3>Mystère du Manoir</h3>
-                    <img src="" alt="" srcset="">
-                    <p>Explorez un manoir mystérieux rempli d'énigmes et de mystères. Parviendrez-vous à résoudre les
-                        énigmes et à vous échapper avant que le temps ne s'écoule ?</p>
-                </div>
-                <div>
-                    <h3>Évasion dans l'Espace</h3>
-                    <img src="" alt="" srcset="">
-                    <p>Voyagez dans l'espace et relevez des défis intergalactiques. Une aventure cosmique qui mettra à
-                        l'épreuve votre esprit d'équipe et votre ingéniosité.</p>
-                </div>
-                <div>
-                    <h3>Mission Secrète: Paris</h3>
-                    <img src="" alt="" srcset="">
-                    <p>Plongez dans une mission secrète au cœur de Paris. Résolvez des énigmes pour déjouer les complots
-                        et accomplir votre mission dans la Ville Lumière.</p>
-                </div>
+
+        <section class=" txtcenter bgblack"><!--section 2 presentation des 3 activitées-->
+          <h2 class="buttonblack ">NOS LIEUX <span class="txtred">DANGEREUX</span></h2>
+            <div id="containerActivite" class="flex space-between txtcenter container-1000">
+                
+            </div>
+            
+        </section>
+
+        <section class="txtcenter mgt100"><!--section 3 retours des participants (temoignages)-->
+            <h2 class="buttonblack ">AVIS DES <span class="txtred">ESCAPEURS</span> </h2>
+            <div id="containerTemoignage" class="flex space-between txtcenter container-1000">
+                
             </div>
         </section>
-        <section><!--section 3 retours des participants-->
-            <h2>AVIS DES ESCAPEURS</h2>
-            <div>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h3>CAMILLE</h3>
-                    <h3>EVASION DANS L’ESPACE</h3>
-                    <p> "Une aventure spatiale passionnante chez Dehors! L'évasion dans l'espace était pleine de
-                        rebondissements. Nous avons adoré chaque minute de cette expérience unique."</p>
-                    <h3>NOTE : 5</h3>
-                </div>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h3>LUCIE</h3>
-                    <h3>MISSION SECRETE</h3>
-                    <p>"La Mission Secrète: Paris chez Dehors! était une expérience mémorable. Les énigmes étaient
-                        intelligentes, et l'intrigue nous a tenus en haleine. Recommandé à tous les amateurs d'escape
-                        game !"</p>
-                    <h3>NOTE : 5</h3>
-                </div>
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h3>ALEXANDRA</h3>
-                    <h3>MYSTERE DU MANOIR</h3>
-                    <p> "L'expérience du Mystère du Manoir chez Dehors! était incroyable. Les énigmes étaient
-                        stimulantes, et l'atmosphère était parfaitement captivante. À refaire !"</p>
-                    <h3>NOTE : 5</h3>
-                </div>
+        <section class="txtcenter mgt100 section-client"><!--section avantage clients en fin de main-->
+             <h3 class="buttonblack ">UNE EXPERIENCE <span class="txtred">UNIQUE</span></h3>
+            <div id="containerAvantage" class="flex space-between txtcenter container-1000">
+               
             </div>
         </section>
     </main>
 
-    <footer><!--contact + adresse + logo du site + horaires-->
-        <div>
-            <div>
+    <footer class="align-center mgt100 bgblack cWhite mgt200 p50"> <!--contact + adresse + logo du site + horaires-->
+        <div class="flex space-between txtcenter container-1000">
+            <div class="w25">
                 <h3>NOTRE ADRESSE</h3>
                 <p>320
                     Boulevard Saint-Michel
@@ -99,7 +67,7 @@
 
                     Paris 75005</p>
             </div>
-            <div>
+            <div class="w25">
                 <h3>CONTACT</h3>
                 <p>dehors.paris@gmail.com
 
@@ -109,10 +77,9 @@
                 <p><i class="ph ph-instagram-logo"></i><i class="ph ph-facebook-logo"></i><i class="ph ph-x-logo"></i>
                 </p>
             </div>
-            <div>
+            <div class="w25">
                 <h3>HORAIRE OUVERTURES</h3>
-                <p>LUNDI : FERMER
-                    MARDI : FERMER
+                <p>
                     MERCREDI : 13H - 17H
                     JEUDI : 13H - 17H
                     VENDREDI : 13H - 17H
@@ -120,7 +87,7 @@
                     DIMANCHE : 8H - 20H</p>
             </div>
         </div>
-        <img src="logo-escape-2.png" alt="" srcset="">
+        <img src="asset/logo-escape-2.png" alt="" srcset="" class="w10">
     </footer>
 
 </body>

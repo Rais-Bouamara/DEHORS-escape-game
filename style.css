@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini&display=swap');
+
+
 .bgblue{
     background-color: blue;
 }
@@ -30,7 +33,9 @@
 .w100 {
     width: 100%;
 }
-
+.w98{
+    width: 98%;
+}
 .w60{
     width: 60%;
 }
@@ -110,18 +115,17 @@ body {
     height: 400px;
 
 }
-.card2{
-    background-color: rgb(191, 188, 188);
-    border-radius: 20px;
-    padding: 20px;
-    width: 30%;
+
+.cardblack{
+     background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 25px;
+    color: #f6f4f7;
+    padding: 5px 15px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.card3{
-    background-color: rgb(134, 5, 208);
-    border-radius: 20px;
-    padding: 20px;
-    width: 30%;
-}
+
 .cWhite{
     color: white;
 }
@@ -136,7 +140,9 @@ body {
     height: 33%;
     flex-wrap: wrap;
 }
-
+.bordrond{
+    border-radius: 20px;
+}
 /*--------------------------------------------------------/*header*/
 header {
     position: fixed;
@@ -164,18 +170,33 @@ header {
     flex-wrap: wrap;
 }
 .section-hero {
-    background-image: url(image.png);
+    background-image: url(asset/image.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 130vH;
+    height: 150vH;
     margin-top: 100px;
     color: white;
     
 
 }
+.section-client {
+    background-image: url(asset/image.png) color #db3b3b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vH;
+    margin-top: 100px;
+    color: #db3b3b;
+    
 
-
+}
+.jaini{
+    font-family: "jaini";
+}
+.plusgrand{
+    font-size: larger;
+}
 /*----------------------------------------------------/*section1*/
 #section1 {
     display: flex;
@@ -191,28 +212,47 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
-.yellow{
-    color: rgba(243, 243, 4, 0.61);
+.txtred{
+    color:#db3b3b ;
 }
 
-.buttonBR {
-    background-color: #100d0e;
-    border-radius: 5px;
-    color: #db3b3b;
-    padding: 5px 15px;
+.buttonBlack {
+    background-color: #100d0e65;
+    border-radius: 25px;
+    color: white;
+    padding: 50px;
     display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #db3b3b;
 }
 .buttonred {
     background-color: #db3b3b;
-    border-radius: 5px;
+    border-radius: 25px;
     color: #f6f4f7;
     padding: 5px 15px;
     display: inline-block;
     color: #ffffff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+.buttonBR{
+    background-color:black;
+    border-radius: 25px;
+    color: #f6f4f7;
+    padding: 5px 15px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 2px #db3b3b;
+} 
+.buttonblack{
+    background-color:black;
+    border-radius: 25px;
+    color: #f6f4f7;
+    padding: 5px 15px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /*------------------------------------------------------/*section2*/
 
